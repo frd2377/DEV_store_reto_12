@@ -12,7 +12,7 @@ productosDestacados.forEach(producto =>{
                     <span class="text-danger">Descripcion: </span>${producto.descripcion}</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <a href="${producto.link}" class="btn btn-sm text-white btn-primary" target="_blank">Comprar Producto</a>
+                        <a href="${producto.link}" class="btn btn-sm text-white btn-dark" target="_blank">Comprar Producto</a>
                     </div>
                         <small class="text-success">${producto.precio}</small>
                 </div>
