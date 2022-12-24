@@ -5,7 +5,7 @@ const productos = document.getElementById('productos-destacados')
 productosDestacados.forEach(producto =>{
     productos.innerHTML += `
     <div class="col">
-        <div class="card shadow-sm">
+        <div class="card shadow-sm" style="border-color:black">
             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="${producto.imagen}" role="img">
             <div class="card-body">
                 <p class="card-text text-primary" style="height: 10rem;"><span class="text-danger">Nombre: </span>${producto.nombre}<br>
